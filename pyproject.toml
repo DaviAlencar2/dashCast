@@ -1,0 +1,13 @@
+[project]
+name = "dashcast"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "DaviAlencar2", email = "davilt.alencar@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "django>=6.1.3",
+]
+
