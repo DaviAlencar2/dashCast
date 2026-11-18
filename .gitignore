@@ -10,3 +10,4 @@ wheels/
 .venv
 
 docs/
+db.sqlite3

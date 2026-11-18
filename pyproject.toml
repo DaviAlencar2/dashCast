@@ -3,11 +3,25 @@ name = "dashcast"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-authors = [
-    { name = "DaviAlencar2", email = "davilt.alencar@gmail.com" }
-]
+authors = [{ name = "DaviAlencar2", email = "davilt.alencar@gmail.com" }]
 requires-python = ">=3.14"
 dependencies = [
+    "coverage>=7.17.3",
     "django>=6.1.3",
 ]
 
+[tool.coverage.run]
+source = ["."]
+omit = [
+  "*/migrations/*",
+  "*/tests/*",
+  "manage.py",
+  "*/settings*",
+  "*/wsgi.py",
+  "*/asgi.py",
+  "*/venv/*",
+]
+
+[tool.coverage.report]
+fail_under = 95
+show_missing = true
