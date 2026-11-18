@@ -72,3 +72,12 @@ jobs:
               --hook-stage commit-msg \
               --commit-msg-filename "$message_file"
           done
+
+      - name: Publicar cobertura
+        run: |
+          {
+            echo '## Cobertura de testes'
+            echo '```text'
+            uv run coverage report
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
