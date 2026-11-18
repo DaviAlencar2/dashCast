@@ -11,3 +11,4 @@ wheels/
 
 docs/
 db.sqlite3
+.coverage
