@@ -9,6 +9,5 @@ wheels/
 # Virtual environments
 .venv
 
-docs/
 db.sqlite3
 .coverage
