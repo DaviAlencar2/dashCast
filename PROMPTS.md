@@ -30,7 +30,7 @@ e aceite registrado conforme orientação do responsável.
 Prompt:
 > adicione ao agents.md essa configuracao de pegar do contexto git o integrante, ou nome ou nome de usuario, o que estiver disponivel, mas com essa ordem de preferencia
 
-Resultado: pendente de revisão — definida a preferência pelo nome configurado
+Resultado: aceito como veio — definida a preferência pelo nome configurado
 no Git, seguido do nome de usuário disponível da conta autenticada. Na ausência
 dos dois, o registro deve indicar `integrante não informado`.
 
